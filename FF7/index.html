@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FF7</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./images/bg-full.jpg');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+
+    .container {
+      width: 1500px;
+      height: 700px;
+      border: 1px solid #CCC;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .col1 {
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("./images/main.jpg") no-repeat center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    .col1 img {
+      width: 200px;
+    }
+    .col1 p {
+      width: 95%;
+    }
+    .col2 {
+      width: 50%;
+      height: 50%;
+      background: #CCC;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .col2 img {
+      height: 100%;
+    }
+
+    .col2 h1,p {
+      width: 50%;
+      margin-left: 20px;
+    }
+
+    .col3 {
+      width: 50%;
+      height: 50%;
+      background: #000;
+      display: flex;
+      color: white;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .col3 img {
+      height: 100%;
+      margin-left: 20px;
+    }
+
+    .col3 h1,p {
+      width: 50%;
+      margin-left: 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="col1">
+      <img src="./images/ps4-ff7.png">
+      <h1>AVAILABLE NOW</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis autem temporibus magni, repellendus assumenda quibusdam illo repellat.</p>
+    </div>
+    <div class="col2">
+      <h1>Cloud</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis autem temporibus magni, repellendus assumenda quibusdam illo repellat.</p>
+      <img src="./images/cloud.png">
+    </div>
+    <div class="col3">
+      <img src="./images/tifa.png">
+      <h1>Tifa</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis autem temporibus magni, repellendus assumenda quibusdam illo repellat.</p>
+    </div>
+  </div>
+</body>
+
+</html>
